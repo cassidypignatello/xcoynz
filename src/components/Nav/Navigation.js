@@ -9,7 +9,6 @@ import styles from './Navigation.module.css'
 
 export default class Navigation extends Component {
   render() {
-    // const navDropdownTitle = 'More' + <img src={caret} width='13' height='8' />;
     return (
       <Navbar
         className={`${styles.navbar} justify-content-between`}

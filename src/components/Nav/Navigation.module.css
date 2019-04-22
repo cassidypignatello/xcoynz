@@ -21,6 +21,8 @@
 
 .navbar {
   top: 35px;
+  z-index: 20;
+  margin-bottom: -85px;
 }
 
 .brand {
