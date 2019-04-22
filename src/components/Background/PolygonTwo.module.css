@@ -1,0 +1,11 @@
+.polygonTwo {
+  background: url('../../assets/images/polygon-two.png') 0% 0% / contain no-repeat;
+  margin-right: auto;
+  width: 670px;
+  height: 958px;
+}
+
+.container {
+  display: flex;
+  margin-top: 200px;
+}
