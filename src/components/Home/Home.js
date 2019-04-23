@@ -5,7 +5,9 @@ import styles from './Home.module.css'
 export default class Home extends Component {
   render() {
     return (
-      <Container className={`${styles.container}`}>
+      <Container
+        id='home'
+        className={`${styles.container}`}>
         <Row>
           <Col
             lg={{ span: 'auto', offset: 1 }}
