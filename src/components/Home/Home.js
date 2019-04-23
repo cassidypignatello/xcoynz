@@ -12,19 +12,19 @@ export default class Home extends Component {
           <Col
             lg={{ span: 'auto', offset: 1 }}
             className={`${styles.header}`}>
-            A Cryptocurrency <br />Platform
+            <p className='text-center text-lg-left'>A Cryptocurrency <br />Platform</p>
           </Col>
         </Row>
         <Row className={styles.subheaderRow}>
           <Col
             lg={{ span: 'auto', offset: 1 }}
             className={styles.subheader}>
-            Including an Exchange that allows you to Set Your Own Fee… <br />BUT that's not all……
+            <p className='text-center text-lg-left'>Including an Exchange that allows you to Set Your Own Fee… <br />BUT that's not all……</p>
           </Col>
         </Row>
         <Row className={`${styles.buttonRow} justify-content-xs-center justify-content-lg-flex-start`}>
           <Col
-            xs={{ span: 'auto', offset: 1 }}
+            xs={{ span: 'auto', offset: 2 }}
             lg={{ span: 'auto', offset: 1 }}>
             <Button
               className={styles.button}
@@ -33,8 +33,8 @@ export default class Home extends Component {
             </Button>
           </Col>
           <Col
-            xs={{ span: 'auto' }}
-            lg='auto'>
+            xs={{ span: 'auto', offset: 3 }}
+            lg={{ span: 'auto', offset: 0 }}>
             <div className={styles.videoButton}></div>
           </Col>
           <Col xs='auto'>
