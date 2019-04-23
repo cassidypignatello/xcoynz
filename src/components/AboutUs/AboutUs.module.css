@@ -1,0 +1,13 @@
+.header {
+  background-image: linear-gradient(304deg, #8a8af4, #3159b8), linear-gradient(to bottom, #000000, #000000);
+  font-family: 'Gordita';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

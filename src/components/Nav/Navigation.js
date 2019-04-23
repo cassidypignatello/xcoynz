@@ -11,7 +11,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <Navbar
-        className={`${styles.navbar} justify-content-between`}
+        className={`${styles.navbar}`}
         variant='light'
         expand='lg'>
         <Navbar.Brand

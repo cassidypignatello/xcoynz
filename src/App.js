@@ -4,6 +4,7 @@ import Navigation from './components/Nav/Navigation.js'
 import PolygonOne from './components/Background/PolygonOne.js'
 import PolygonTwo from './components/Background/PolygonTwo.js'
 import Home from './components/Home/Home.js'
+import AboutUs from './components/AboutUs/AboutUs.js'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <PolygonOne />
         <Home />
         <PolygonTwo />
+        <AboutUs />
       </div>
     );
   }
