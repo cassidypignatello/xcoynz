@@ -15,7 +15,7 @@ export default class Home extends Component {
             <p className='text-center text-lg-left'>A Cryptocurrency <br />Platform</p>
           </Col>
         </Row>
-        <Row className={styles.subheaderRow}>
+        <Row className={`${styles.subheaderRow} justify-content-lg-start justify-content-md-center`}>
           <Col
             lg={{ span: 'auto', offset: 1 }}
             className={styles.subheader}>
@@ -25,6 +25,7 @@ export default class Home extends Component {
         <Row className={`${styles.buttonRow} justify-content-xs-center justify-content-lg-flex-start`}>
           <Col
             xs={{ span: 'auto', offset: 2 }}
+            md={{ span: 'auto', offset: 1 }}
             lg={{ span: 'auto', offset: 1 }}>
             <Button
               className={styles.button}
@@ -34,6 +35,7 @@ export default class Home extends Component {
           </Col>
           <Col
             xs={{ span: 'auto', offset: 3 }}
+            md={{ span: 'auto', offset: 0 }}
             lg={{ span: 'auto', offset: 0 }}>
             <div className={styles.videoButton}></div>
           </Col>
