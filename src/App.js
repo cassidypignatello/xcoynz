@@ -7,6 +7,7 @@ import Home from './components/Home/Home.js'
 import AboutUs from './components/AboutUs/AboutUs.js'
 import Overview from './components/Overview/Overview.js'
 import Token from './components/Token/Token.js'
+import Documents from './components/Documents/Documents.js'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <AboutUs />
         <Overview />
         <Token />
+        <Documents />
       </div>
     );
   }
