@@ -6,6 +6,7 @@ import PolygonTwo from './components/Background/PolygonTwo.js'
 import Home from './components/Home/Home.js'
 import AboutUs from './components/AboutUs/AboutUs.js'
 import Overview from './components/Overview/Overview.js'
+import Token from './components/Token/Token.js'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <PolygonTwo />
         <AboutUs />
         <Overview />
+        <Token />
       </div>
     );
   }

@@ -69,6 +69,10 @@
   .paymentGateway {
     height: 476px;
   }
+
+  .smartCard {
+    height: 432px;
+  }
 }
 
 .row {
