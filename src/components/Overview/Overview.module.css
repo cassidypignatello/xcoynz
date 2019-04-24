@@ -27,3 +27,50 @@
   letter-spacing: normal;
   color: #01265c;
 }
+
+
+.exchange {
+  background: url('../../assets/images/exchange.png') 0% 0% / contain no-repeat;
+  width: 498px;
+  height: 493px;
+  margin-top: 40px;
+}
+
+.saw {
+  background: url('../../assets/images/saw.png') 0% 0% / contain no-repeat;
+  width: 527px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.paymentGateway {
+  background: url('../../assets/images/payment-gateway.png') 0% 0% / contain no-repeat;
+  width: 511px;
+  height: 554px;
+  margin-top: 40px;
+}
+
+.smartCard {
+  background: url('../../assets/images/smart-card.png') 0% 0% / contain no-repeat;
+  width: 553px;
+  height: 513px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 414px) {
+  .exchange {
+    height: 425px;
+  }
+
+  .saw {
+    height: 336px;
+  }
+
+  .paymentGateway {
+    height: 476px;
+  }
+}
+
+.row {
+  margin-top: 8px;
+}

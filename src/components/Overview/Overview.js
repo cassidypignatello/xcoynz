@@ -24,6 +24,26 @@ export default class Overview extends Component {
             </p>
           </Col>
         </Row>
+        <Row className={`${styles.row} justify-content-center`}>
+          <Col
+            xs='auto'
+            className={styles.exchange}>
+          </Col>
+          <Col
+            xs='auto'
+            className={styles.saw}>
+          </Col>
+        </Row>
+        <Row className={`${styles.row} justify-content-center`}>
+          <Col
+            xs='auto'
+            className={styles.paymentGateway}>
+          </Col>
+          <Col
+            xs='auto'
+            className={styles.smartCard}>
+          </Col>
+        </Row>
       </Container>
     )
   }
