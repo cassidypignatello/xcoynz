@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Gordita-Bold'), url(../../assets/fonts/Gordita-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Gordita-Medium'), url(../../assets/fonts/Gordita-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gordita-Regular'), url(../../assets/fonts/Gordita-Regular.otf) format('opentype');
+}
+
+.navbar {
+  top: 35px;
+  z-index: 20;
+  margin-bottom: -85px;
+  width: 100%;
+}
+
+.brand {
+  position: relative;
+  left: 112px;
+}
+
+.nav {
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #3a4657;
+  align-items: center;
+}
+
+.nav a {
+  margin-right: 15px;
+}

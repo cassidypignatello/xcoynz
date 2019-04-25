@@ -1,0 +1,13 @@
+.polygonOne {
+  background: url('../../assets/images/polygon-one.png') 0% 0% / contain no-repeat;
+  margin-left: auto;
+  width: 858px;
+  height: 662px;
+  right: 0;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  margin-bottom: -415px;
+}

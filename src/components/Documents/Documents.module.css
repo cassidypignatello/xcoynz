@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(74deg, rgb(234, 240, 255, 0.51), rgb(220, 231, 255, 0.51) 48%, rgb(215, 228, 255, 0.51) 63%, rgb(204, 221, 255, 0.51));
+  margin-top: 15%;
+}
+
+.pitchdeck, .onepager, .lightpaper, .whitepaper, .otherLanguages {
+  width: 203px;
+  height: 235px;
+  cursor: pointer;
+}
+
+.pitchdeck {
+  background: url('../../assets/images/pitchdeck.png') 0% 0% / contain no-repeat;
+}
+
+.onepager {
+  background: url('../../assets/images/onepager.png') 0% 0% / contain no-repeat;
+}
+
+.lightpaper {
+  background: url('../../assets/images/lightpaper.png') 0% 0% / contain no-repeat;
+}
+
+.whitepaper {
+  background: url('../../assets/images/whitepaper.png') 0% 0% / contain no-repeat;
+}
+
+.otherLanguages {
+  background: url('../../assets/images/whitepaper-other-languages.png') 0% 0% / contain no-repeat;
+}
+
+@media only screen and (max-width: 414px) {
+  .container {
+    height: 230px;
+    margin-top: 0;
+  }
+
+  .title {
+    margin-right: 17px;
+  }
+}
