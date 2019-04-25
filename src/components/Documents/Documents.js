@@ -7,21 +7,27 @@ export default class Documents extends Component {
   render() {
     return (
       <Container
-        className={`${styles.container} d-flex justify-content-center align-items-center`}
+        id='documents'
+        className={`${styles.container} d-flex flex-column align-items-center`}
         fluid={true}>
-        <Row>
+        <Row
+          className={styles.title}
+          style={{
+            marginTop: '44px',
+            justifyContent: 'center'
+          }}>
           <Col
             xs={{ span: 'auto', offset: 3 }}
-            lg='auto'>
+            lg={{ span: 'auto', offset: 0 }}>
             <img src={documents} alt='Documents' />
           </Col>
         </Row>
-        <Row>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
+        <Row style={{ marginTop: '42px' }}>
+          <Col className={styles.pitchdeck}></Col>
+          <Col className={styles.onepager}></Col>
+          <Col className={styles.lightpaper}></Col>
+          <Col className={styles.whitepaper}></Col>
+          <Col className={styles.otherLanguages}></Col>
         </Row>
       </Container>
     )
