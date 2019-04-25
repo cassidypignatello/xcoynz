@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from './Documents.module.css'
 import documents from '../../assets/images/documents-header.png'
+import pitchdeck from '../../assets/documents/pitchdeck.pdf'
+import onepager from '../../assets/documents/onepager.pdf'
+import lightpaper from '../../assets/documents/lightpaper.pdf'
+import whitepaper from '../../assets/documents/whitepaper.pdf'
+import otherLanguages from '../../assets/documents/other-languages.zip'
 
 export default class Documents extends Component {
   render() {
@@ -23,11 +28,21 @@ export default class Documents extends Component {
           </Col>
         </Row>
         <Row style={{ marginTop: '42px' }}>
-          <Col className={styles.pitchdeck}></Col>
-          <Col className={styles.onepager}></Col>
-          <Col className={styles.lightpaper}></Col>
-          <Col className={styles.whitepaper}></Col>
-          <Col className={styles.otherLanguages}></Col>
+          <a href={pitchdeck} download='XCOYNZ Investor Pitch v2.1.pdf'>
+            <Col className={styles.pitchdeck}></Col>
+          </a>
+          <a href={onepager} download='XCOYNZ Onepager V2.pdf'>
+            <Col className={styles.onepager}></Col>
+          </a>
+          <a href={lightpaper} download='XCOYNZ Light Paper V1.5.pdf'>
+            <Col className={styles.lightpaper}></Col>
+          </a>
+          <a href={whitepaper} download='XCOYNZ Full Detailed Whitepaper v2.1.pdf'>
+            <Col className={styles.whitepaper}></Col>
+          </a>
+          <a href={otherLanguages} download='XCOYNZ Full Detailed Whitepaper v2.1_Other_Languages.zip'>
+            <Col className={styles.otherLanguages}></Col>
+          </a>
         </Row>
       </Container>
     )

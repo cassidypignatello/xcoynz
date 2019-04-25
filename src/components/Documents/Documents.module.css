@@ -8,6 +8,7 @@
 .pitchdeck, .onepager, .lightpaper, .whitepaper, .otherLanguages {
   width: 203px;
   height: 235px;
+  cursor: pointer;
 }
 
 .pitchdeck {
