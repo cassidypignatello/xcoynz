@@ -1,8 +1,22 @@
 import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import styles from './Home.module.css'
+import ModalVideo from 'react-modal-video'
 
 export default class Home extends Component {
+  constructor() {
+    super()
+    this.state = {
+      isOpen: false
+    }
+    this.openModal = this.openModal.bind(this)
+  }
+
+  openModal() {
+    this.setState({ isOpen: true })
+  }
+
   render() {
     return (
       <Container
@@ -21,6 +35,16 @@ export default class Home extends Component {
             className={styles.subheader}>
             <p className='text-center text-lg-left'>Including an Exchange that allows you to Set Your Own Fee… <br />BUT that's not all……</p>
           </Col>
+          <Col
+            className={styles.videoModal}
+            lg={{ span: 'auto' }}>
+            <ModalVideo
+              channel='youtube'
+              isOpen={this.state.isOpen}
+              videoId='2FyG95dmJkw'
+              onClose={() => this.setState({isOpen: false})}
+            />
+          </Col>
         </Row>
         <Row className={`${styles.buttonRow} justify-content-xs-center justify-content-lg-flex-start`}>
           <Col
@@ -37,10 +61,17 @@ export default class Home extends Component {
             xs={{ span: 'auto', offset: 3 }}
             md={{ span: 'auto', offset: 0 }}
             lg={{ span: 'auto', offset: 0 }}>
-            <div className={styles.videoButton}></div>
+            <div
+              className={styles.videoButton}
+              onClick={this.openModal}>
+            </div>
           </Col>
           <Col xs='auto'>
-            <div className={styles.videoButtonText}>Watch Our Video</div>
+            <div
+              className={styles.videoButtonText}
+              onClick={this.openModal}>
+              Watch Our Video
+            </div>
           </Col>
         </Row>
       </Container>
