@@ -30,30 +30,86 @@
 
 
 .exchange {
-  background: url('../../assets/images/exchange.png') 0% 0% / contain no-repeat;
+  /* background: url('../../assets/images/exchange.png') 0% 0% / contain no-repeat; */
   width: 498px;
   height: 493px;
   margin-top: 40px;
 }
 
+.exchangeTitle {
+  background-image: linear-gradient(304deg, #8a8af4, #3159b8);
+  font-family: 'Gordita';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exchangeSubtitle {
+  width: 370px;
+  height: 42px;
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #01265c;
+}
+
+.content {
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: rgba(1, 38, 92, 0.68);
+}
+
+.useCases {
+  background-image: linear-gradient(256deg, #6277d5, #335ab9), linear-gradient(to bottom, #01265c, #01265c);
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #4063C3;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
 .saw {
-  background: url('../../assets/images/saw.png') 0% 0% / contain no-repeat;
-  width: 527px;
-  height: 400px;
+  /* background: url('../../assets/images/saw.png') 0% 0% / contain no-repeat; */
+  /* width: 527px;
+  height: 400px; */
   margin-top: 40px;
 }
 
 .paymentGateway {
-  background: url('../../assets/images/payment-gateway.png') 0% 0% / contain no-repeat;
-  width: 511px;
-  height: 554px;
+  /* background: url('../../assets/images/payment-gateway.png') 0% 0% / contain no-repeat; */
+  /* width: 511px;
+  height: 554px; */
   margin-top: 40px;
 }
 
 .smartCard {
-  background: url('../../assets/images/smart-card.png') 0% 0% / contain no-repeat;
-  width: 553px;
-  height: 513px;
+  /* background: url('../../assets/images/smart-card.png') 0% 0% / contain no-repeat; */
+  /* width: 553px;
+  height: 513px; */
   margin-top: 40px;
 }
 
