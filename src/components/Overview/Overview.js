@@ -23,8 +23,7 @@ export default class Overview extends Component {
             <p
               className='text-center'
               style={{
-                margin: '10px auto 0',
-                width: '802px'
+                margin: '10px auto 0'
               }}>
               The ultimate solution for exchanging, spending and receiving payments in cryptocurrencies. Set your own fee, global payments card and more.
             </p>

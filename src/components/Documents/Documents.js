@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from './Documents.module.css'
-import documents from '../../assets/images/documents-header.png'
 import pitchdeck from '../../assets/documents/pitchdeck.pdf'
 import onepager from '../../assets/documents/onepager.pdf'
 import lightpaper from '../../assets/documents/lightpaper.pdf'
@@ -16,7 +15,6 @@ export default class Documents extends Component {
         className={`${styles.container} d-flex flex-column align-items-center`}
         fluid={true}>
         <Row
-          className={styles.title}
           style={{
             marginTop: '44px',
             justifyContent: 'center'
@@ -24,7 +22,7 @@ export default class Documents extends Component {
           <Col
             xs={{ span: 'auto', offset: 3 }}
             lg={{ span: 'auto', offset: 0 }}>
-            <img src={documents} alt='Documents' />
+            <p className={styles.title}>Documents</p>
           </Col>
         </Row>
         <Row style={{ marginTop: '42px' }}>
