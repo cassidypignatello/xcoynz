@@ -20,12 +20,14 @@ export default class Documents extends Component {
             justifyContent: 'center'
           }}>
           <Col
-            xs={{ span: 'auto', offset: 3 }}
-            lg={{ span: 'auto', offset: 0 }}>
+            xs={{ span: 'auto' }}
+            lg={{ span: 'auto' }}>
             <p className={styles.title}>Documents</p>
           </Col>
         </Row>
-        <Row style={{ marginTop: '42px' }}>
+        <Row
+          className='justify-content-center'
+          style={{ marginTop: '42px' }}>
           <a href={pitchdeck} download='XCOYNZ Investor Pitch v2.1.pdf'>
             <Col className={styles.pitchdeck}></Col>
           </a>
