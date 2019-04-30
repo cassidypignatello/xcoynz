@@ -39,3 +39,16 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+
+.content {
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: rgba(1, 38, 92, 0.68);
+  padding-right: 0;
+}

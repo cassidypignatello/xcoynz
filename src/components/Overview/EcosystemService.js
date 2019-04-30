@@ -54,26 +54,38 @@ export default class EcosystemService extends Component {
           </Col>
         </Row>
         <Row style={{ marginTop: '30px' }}>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            lg='auto'>
             <img src={checkmark} />
           </Col>
-          <Col className={styles.content}>
+          <Col
+            xs='auto'
+            className={styles.content}>
             <p style={{ width: content1Width }}>{content1}</p>
           </Col>
         </Row>
         <Row>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            lg='auto'>
             <img src={checkmark} />
           </Col>
-          <Col className={styles.content}>
+          <Col
+            xs='auto'
+            className={styles.content}>
             <p style={{ width: content2Width }}>{content2}</p>
           </Col>
         </Row>
         <Row style={{ display: content3Display }}>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            lg='auto'>
             <img src={checkmark} />
           </Col>
-          <Col className={styles.content}>
+          <Col
+            xs='auto'
+            className={styles.content}>
             <p>{content3}</p>
           </Col>
         </Row>
@@ -85,20 +97,28 @@ export default class EcosystemService extends Component {
           </Col>
         </Row>
         <Row>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            lg='auto'>
             <img src={checkmark} />
           </Col>
-          <Col className={styles.content}>
+          <Col
+            xs='auto'
+            className={styles.content}>
             <p style={{ width: content4Width }}>
               {content4}
             </p>
           </Col>
         </Row>
         <Row style={{ display: content5Display }}>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            lg='auto'>
             <img src={checkmark} />
           </Col>
-          <Col className={styles.content}>
+          <Col
+            xs='auto'
+            className={styles.content}>
             <p style={{ width: content5Width }}>
               {content5}
             </p>
