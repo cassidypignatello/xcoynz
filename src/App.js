@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs/AboutUs.js'
 import Overview from './components/Overview/Overview.js'
 import Token from './components/Token/Token.js'
 import Documents from './components/Documents/Documents.js'
+import Roadmap from './components/Roadmap/Roadmap.js'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <Overview />
         <Token />
         <Documents />
+        <Roadmap />
       </div>
     );
   }

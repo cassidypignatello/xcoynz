@@ -5,8 +5,12 @@ import styles from './Roadmap.module.css'
 export default class Roadmap extends Component {
   render() {
     return (
-      <Container>
-        <Row className={styles.title}></Row>
+      <Container
+        className={styles.roadmap} 
+        id='roadmap'>
+        <Row className='justify-content-center'>
+          <p className={styles.title}>Our Roadmap</p>
+        </Row>
         <Row></Row>
       </Container>
     )
