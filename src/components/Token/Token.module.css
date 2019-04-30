@@ -1,15 +1,42 @@
 .tokenPurpose {
-  background: url('../../assets/images/token-purpose.png') 0% 0% / contain no-repeat;
-  width: 500px;
-  height: 661px;
+  /* width: 500px;
+  height: 661px; */
   margin-top: 138px;
 }
 
 .tokenProperties {
-  background: url('../../assets/images/token-properties.png') 0% 0% / contain no-repeat;
+  background: url('../../assets/images/token-properties.png') 0% 0% / cover no-repeat;
   width: 868px;
-  height: 466px;
+  height: 798px;
   margin-top: 120px;
+}
+
+.tokenTitle {
+  width: 344px;
+  background-image: linear-gradient(304deg, #8a8af4, #3159b8);
+  font-family: 'Gordita';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tokenDescription {
+  width: 463px;
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(1, 38, 92, 0.8);
 }
 
 @media only screen and (max-width: 414px) {
