@@ -28,9 +28,7 @@
   color: #01265c;
 }
 
-.exchange {
-  width: 498px;
-  height: 493px;
+.exchange, .saw, .paymentGateway, .smartCard {
   margin-top: 40px;
 }
 
@@ -44,27 +42,6 @@
   letter-spacing: -0.1px;
   text-align: left;
   color: rgba(1, 38, 92, 0.68);
-}
-
-.saw {
-  /* background: url('../../assets/images/saw.png') 0% 0% / contain no-repeat; */
-  /* width: 527px;
-  height: 400px; */
-  margin-top: 40px;
-}
-
-.paymentGateway {
-  /* background: url('../../assets/images/payment-gateway.png') 0% 0% / contain no-repeat; */
-  /* width: 511px;
-  height: 554px; */
-  margin-top: 40px;
-}
-
-.smartCard {
-  /* background: url('../../assets/images/smart-card.png') 0% 0% / contain no-repeat; */
-  /* width: 553px;
-  height: 513px; */
-  margin-top: 40px;
 }
 
 @media only screen and (max-width: 414px) {

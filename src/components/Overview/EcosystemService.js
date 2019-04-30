@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import styles from './EcosystemService.module.css'
 import checkmark from '../../assets/images/orange-check.png'
 
@@ -8,17 +8,23 @@ export default class EcosystemService extends Component {
     const {
       containerStyle,
       icon,
+      iconLeft,
       title,
       subtitleWidth,
       subtitleHeight,
       subtitle,
       content1,
+      content1Width,
       content2,
+      content2Width,
       content3,
+      content3Display,
       content4,
       content4Width,
       content5,
-      content5Width
+      content5Width,
+      content5Display,
+      useCaseMarginTop
     } = this.props
     return (
       <Col
@@ -28,7 +34,7 @@ export default class EcosystemService extends Component {
           src={icon}
           style={{
             position: 'relative',
-            left: '-117px'
+            left: iconLeft
           }}
         />
         <Row style={{ marginTop: '-115px' }}>
@@ -52,7 +58,7 @@ export default class EcosystemService extends Component {
             <img src={checkmark} />
           </Col>
           <Col className={styles.content}>
-            <p>{content1}</p>
+            <p style={{ width: content1Width }}>{content1}</p>
           </Col>
         </Row>
         <Row>
@@ -60,10 +66,10 @@ export default class EcosystemService extends Component {
             <img src={checkmark} />
           </Col>
           <Col className={styles.content}>
-            <p>{content2}</p>
+            <p style={{ width: content2Width }}>{content2}</p>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ display: content3Display }}>
           <Col lg='auto'>
             <img src={checkmark} />
           </Col>
@@ -73,7 +79,7 @@ export default class EcosystemService extends Component {
         </Row>
         <Row
           className={styles.useCases}
-          style={{ marginTop: '19px' }}>
+          style={{ marginTop: useCaseMarginTop }}>
           <Col>
             <p>Use Cases:</p>
           </Col>
@@ -88,7 +94,7 @@ export default class EcosystemService extends Component {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ display: content5Display }}>
           <Col lg='auto'>
             <img src={checkmark} />
           </Col>
@@ -101,4 +107,8 @@ export default class EcosystemService extends Component {
       </Col>
     )
   }
+}
+
+EcosystemService.defaultProps = {
+  iconLeft: '-117px'
 }
