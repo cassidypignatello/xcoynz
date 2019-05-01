@@ -1,0 +1,22 @@
+.timelineContainer {
+  border-radius: 9px;
+  box-shadow: 0px 12px 30px 0 rgba(22, 36, 123, 0.07);
+  background-color: #ffffff;
+  font-family: 'Gordita';
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
+
+.mainDevelopment {
+  position: relative;
+  right: 50px;
+  bottom: 78px;
+}
+
+@media (max-width: 768px) {
+  .mainDevelopment {
+    bottom: 0;
+    margin-top: 10px
+  }
+}
