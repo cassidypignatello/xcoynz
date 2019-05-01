@@ -16,3 +16,23 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.navigation {
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: rgba(1, 38, 92, 0.69);
+}
+
+.navlink:hover {
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 500;
+  color: #2c4db1;
+}
