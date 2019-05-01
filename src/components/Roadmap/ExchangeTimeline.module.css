@@ -8,15 +8,63 @@
   letter-spacing: normal;
 }
 
+.timelineContainer:hover {
+  background-image: linear-gradient(236deg, #5368df, #2951c2);
+  cursor: pointer;
+}
+
+.timelineContainer:hover > div > div {
+  color: #fff;
+}
+
+.timeline {
+  margin-top: -172px;
+  margin-bottom: 10px;
+}
+
 .mainDevelopment {
   position: relative;
   right: 50px;
   bottom: 78px;
 }
 
+.phaseTwoDeployment {
+  position: relative;
+  bottom: 238px;
+}
+
+.phaseTwoDevelopment {
+  position: relative;
+  bottom: 110px;
+}
+
+.exchangeComplete {
+  top: -186px;
+  left: 16px;
+}
+
 @media (max-width: 768px) {
   .mainDevelopment {
     bottom: 0;
     margin-top: 10px
+  }
+
+  .phaseTwoDevelopment {
+    right: 28px;
+    top: 8px;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .exchangeComplete {
+    top: -277px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .exchangeComplete {
+    top: -257px;
   }
 }

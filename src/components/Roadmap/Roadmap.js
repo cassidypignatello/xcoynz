@@ -30,7 +30,11 @@ export default class Roadmap extends Component {
         </Row>
         <ExchangeTimeline />
         <Row className={`${styles.navigation} justify-content-center`}>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            sm='auto'
+            md='auto'
+            lg='auto'>
             <div className={this.state.active === 'Exchange' ? `${styles.active}` : null}>
               <p
                 data-name='Exchange'
@@ -40,7 +44,11 @@ export default class Roadmap extends Component {
               </p>
             </div>
           </Col>
-          <Col lg='auto'>
+          <Col
+            xs='auto'
+            sm='auto'
+            md='auto'
+            lg='auto'>
             <div className={this.state.active === 'SAW' ? `${styles.active}` : null}>
               <p
                 data-name='SAW'
@@ -50,7 +58,11 @@ export default class Roadmap extends Component {
               </p>
             </div>
           </Col>
-          <Col lg='auto'>
+          <Col
+           xs='auto'
+           sm='auto'
+           md='auto'
+           lg='auto'>
             <div className={this.state.active === 'Payment Gateway' ? `${styles.active}` : null}>
               <p
                 data-name='Payment Gateway'
