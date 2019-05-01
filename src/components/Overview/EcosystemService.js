@@ -36,6 +36,7 @@ export default class EcosystemService extends Component {
             position: 'relative',
             left: iconLeft
           }}
+          alt=''
         />
         <Row style={{ marginTop: '-115px' }}>
           <Col lg='auto' className={styles.title}>
@@ -57,7 +58,7 @@ export default class EcosystemService extends Component {
           <Col
             xs='auto'
             lg='auto'>
-            <img src={checkmark} />
+            <img src={checkmark} alt='' />
           </Col>
           <Col
             xs='auto'
@@ -69,7 +70,7 @@ export default class EcosystemService extends Component {
           <Col
             xs='auto'
             lg='auto'>
-            <img src={checkmark} />
+            <img src={checkmark} alt='' />
           </Col>
           <Col
             xs='auto'
@@ -81,7 +82,7 @@ export default class EcosystemService extends Component {
           <Col
             xs='auto'
             lg='auto'>
-            <img src={checkmark} />
+            <img src={checkmark} alt='' />
           </Col>
           <Col
             xs='auto'
@@ -100,7 +101,7 @@ export default class EcosystemService extends Component {
           <Col
             xs='auto'
             lg='auto'>
-            <img src={checkmark} />
+            <img src={checkmark} alt='' />
           </Col>
           <Col
             xs='auto'
@@ -114,7 +115,7 @@ export default class EcosystemService extends Component {
           <Col
             xs='auto'
             lg='auto'>
-            <img src={checkmark} />
+            <img src={checkmark} alt='' />
           </Col>
           <Col
             xs='auto'

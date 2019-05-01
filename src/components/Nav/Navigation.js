@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Button from 'react-bootstrap/Button'
 import brand from '../../assets/images/brand.png'
-import caret from '../../assets/images/caret.png'
 import styles from './Navigation.module.css'
 
 export default class Navigation extends Component {

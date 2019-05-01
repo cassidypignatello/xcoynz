@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import styles from './Home.module.css'
 import ModalVideo from 'react-modal-video'
