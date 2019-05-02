@@ -17,6 +17,10 @@
   color: #fff;
 }
 
+.timelineContainer:hover div:nth-child(2) > div > p {
+  color: #ffc442;
+}
+
 .timeline {
   margin-top: -172px;
   margin-bottom: 10px;
