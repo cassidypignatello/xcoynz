@@ -3,12 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from './Roadmap.module.css'
 import ExchangeTimeline from './ExchangeTimeline.js'
 import SAWTimeline from './SAWTimeline.js'
+import PaymentTimeline from './PaymentTimeline.js'
 
 export default class Roadmap extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: 'Exchange'
+      active: 'Payment Gateway'
     }
     this.handleClick = this.handleClick.bind(this)
   }
@@ -26,6 +27,8 @@ export default class Roadmap extends Component {
       timeline = <ExchangeTimeline />
     } else if (active === 'SAW') {
       timeline = <SAWTimeline />
+    } else if (active === 'Payment Gateway') {
+      timeline = <PaymentTimeline />
     }
     return (
       <Container
@@ -33,7 +36,12 @@ export default class Roadmap extends Component {
         id='roadmap'>
         <Row className='justify-content-center'>
           <Col>
-            <p className={styles.title}>Our Roadmap</p>
+            <p
+             className={active === 'Payment Gateway' ?
+            `${styles.title} ${styles.paymentTitle}` :
+            `${styles.title}`}>
+             Our Roadmap
+            </p>
           </Col>
         </Row>
         {timeline}

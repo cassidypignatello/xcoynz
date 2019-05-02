@@ -32,6 +32,24 @@
   margin-bottom: 10px;
 }
 
+.paymentTimeline {
+  margin-top: -622px;
+  margin-bottom: 10px;
+}
+
+.paymentPhaseOneDev {
+  bottom: 290px;
+}
+
+.paymentPhaseTwoDeployment {
+  bottom: 185px;
+}
+
+.paymentGatewayComplete {
+  left: -17px;
+  bottom: 428px;
+}
+
 .SAWPhaseOne {
   bottom: 95px;
 }
