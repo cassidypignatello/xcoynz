@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
-import styles from './ExchangeTimeline.module.css'
+import styles from './Timeline.module.css'
 import timeline from '../../assets/images/exchange-timeline.png'
 import TimelineMarker from './TimelineMarker.js'
 
@@ -46,7 +46,7 @@ export default class ExchangeTimeline extends Component {
               phase='Phase 2 Deployment'
             />
           </Col>
-          <img src={timeline} className={`${styles.timeline} img-fluid`} />
+          <img src={timeline} className={`${styles.exchangeTimeline} img-fluid`} />
           <Col
             xs={{ span: 3, offset: 2 }}
             sm={{ span: 3, offset: 2 }}

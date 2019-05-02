@@ -6,6 +6,7 @@
   font-style: normal;
   font-stretch: normal;
   letter-spacing: normal;
+  position: relative;
 }
 
 .timelineContainer:hover {
@@ -21,28 +22,48 @@
   color: #ffc442;
 }
 
-.timeline {
+.exchangeTimeline {
   margin-top: -172px;
   margin-bottom: 10px;
 }
 
+.SAWTimeline {
+  margin-top: -389px;
+  margin-bottom: 10px;
+}
+
+.SAWPhaseOne {
+  bottom: 95px;
+}
+
+.SAWPhaseTwoDev {
+  bottom: 178px;
+  right: 50px;
+}
+
+.SAWPhaseTwoDeployment {
+  left: 50px;
+  bottom: 321px;
+}
+
+.SAWPhaseOneDeployment {
+  bottom: 63px;
+}
+
 .mainDevelopment {
-  position: relative;
   right: 50px;
   bottom: 78px;
 }
 
 .phaseTwoDeployment {
-  position: relative;
   bottom: 238px;
 }
 
 .phaseTwoDevelopment {
-  position: relative;
   bottom: 110px;
 }
 
-.exchangeComplete {
+.exchangeComplete, .SAWComplete {
   top: -186px;
   left: 16px;
 }
@@ -58,11 +79,28 @@
     top: 8px;
     bottom: 0;
   }
+
+  .SAWPhaseOne {
+    left: -60px;
+    bottom: 44px;
+  }
+
+  .SAWPhaseTwoDeployment {
+    left: 87px;
+  }
+
+  .SAWPhaseOneDeployment {
+    bottom: 123px;
+  }
 }
 
 @media (max-width: 992px) {
   .exchangeComplete {
     top: -277px;
+  }
+
+  .SAWComplete {
+    top: -246px;
   }
 }
 
