@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from './Token.module.css'
+import properties from '../../assets/images/token-properties.png'
 
 export default class Token extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class Token extends Component {
         <Row className='justify-content-center'>
           <Col
             xs='auto'
-            lg={{ span: 6 }}
+            lg={5}
             className={`${styles.purpose}`}>
             <p className={styles.title}>Token Purpose & Appeal</p>
             <p className={styles.description}>
@@ -20,8 +21,8 @@ export default class Token extends Component {
           </Col>
           <Col
             xs='auto'
-            lg={{ span: 6 }}
-            className={`${styles.properties}`}>
+            lg={7}>
+            <img src={properties} className={`${styles.properties} img-fluid`} />
           </Col>
         </Row>
       </Container>
