@@ -23,9 +23,8 @@ export default class Home extends Component {
         className={`${styles.container}`}>
         <Row>
           <Col
-            lg={{ span: 'auto', offset: 1 }}
-            className={`${styles.header}`}>
-            <p className='text-center text-lg-left'>A Cryptocurrency <br />Platform</p>
+            lg={{ span: 'auto', offset: 1 }}>
+            <p className={`${styles.header} text-center text-lg-left`}>A Cryptocurrency <br />Platform</p>
           </Col>
         </Row>
         <Row className={`${styles.subheaderRow} justify-content-lg-start justify-content-md-center`}>
@@ -47,11 +46,12 @@ export default class Home extends Component {
         </Row>
         <Row className={`${styles.buttonRow} justify-content-xs-center justify-content-lg-flex-start`}>
           <Col
-            xs={{ span: 'auto', offset: 2 }}
+            xs={{ span: 'auto', offset: 3 }}
+            sm={{ span: 'auto', offset: 2 }}
             md={{ span: 'auto', offset: 1 }}
             lg={{ span: 'auto', offset: 1 }}>
             <Button
-              className={styles.button}
+              className={`${styles.button}`}
               href='#'>
               <p className={styles.buttonText}>New to Crypto Investment</p>
             </Button>
