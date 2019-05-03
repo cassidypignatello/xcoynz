@@ -33,7 +33,7 @@ export default class AboutUs extends Component {
         </Row>
         <Row>
           <Col
-            xs={{ span: 'auto', offset: 2 }}
+            xs={{ span: 'auto', offset: 3 }}
             lg={{ span: 'auto', offset: 7 }}>
             <Button
               className={styles.button}
