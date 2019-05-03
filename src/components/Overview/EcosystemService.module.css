@@ -50,5 +50,6 @@
   letter-spacing: -0.1px;
   text-align: left;
   color: rgba(1, 38, 92, 0.68);
+  padding-left: 0;
   padding-right: 0;
 }

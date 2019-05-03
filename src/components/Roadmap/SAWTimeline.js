@@ -47,7 +47,11 @@ export default class SAWTimeline extends Component {
               phase='Phase 2 Deployment'
             />
           </Col>
-          <img src={timeline} className={`${styles.SAWTimeline} img-fluid`} />
+          <img
+            src={timeline}
+            className={`${styles.SAWTimeline} img-fluid`}
+            alt='' 
+          />
           <Col
             xs={{ span: 4, offset: 2 }}
             sm={{ span: 4, offset: 2 }}

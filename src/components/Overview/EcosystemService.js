@@ -11,7 +11,6 @@ export default class EcosystemService extends Component {
       iconLeft,
       title,
       subtitleWidth,
-      subtitleHeight,
       subtitle,
       content1,
       content1Width,
@@ -39,18 +38,15 @@ export default class EcosystemService extends Component {
           alt=''
         />
         <Row style={{ marginTop: '-115px' }}>
-          <Col lg='auto' className={styles.title}>
-            <p>{title}</p>
+          <Col lg='auto'>
+            <p className={styles.title}>{title}</p>
           </Col>
         </Row>
         <Row>
           <Col
             lg='auto'
             className={styles.subtitle}
-            style={{
-              width: subtitleWidth,
-              height: subtitleHeight
-            }}>
+            style={{ width: subtitleWidth }}>
             <p>{subtitle}</p>
           </Col>
         </Row>

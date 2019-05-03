@@ -43,3 +43,9 @@
     margin-top: 0;
   }
 }
+
+@media only screen and (max-device-width : 812px) {
+  .container {
+    margin-top: 70px;
+  }
+}

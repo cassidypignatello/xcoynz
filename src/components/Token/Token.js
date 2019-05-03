@@ -6,7 +6,9 @@ import properties from '../../assets/images/token-properties.png'
 export default class Token extends Component {
   render() {
     return (
-      <Container id='token'>
+      <Container
+        id='token'
+        className={styles.container}>
         <Row className='justify-content-center'>
           <Col
             xs='auto'
@@ -22,7 +24,11 @@ export default class Token extends Component {
           <Col
             xs='auto'
             lg={7}>
-            <img src={properties} className={`${styles.properties} img-fluid`} />
+            <img
+              src={properties}
+              className={`${styles.properties} img-fluid`}
+              alt=''
+            />
           </Col>
         </Row>
       </Container>

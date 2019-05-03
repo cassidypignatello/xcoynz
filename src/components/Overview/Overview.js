@@ -14,8 +14,8 @@ export default class Overview extends Component {
         className={styles.container}
         id='overview'>
         <Row>
-          <Col className={styles.header}>
-            <p className='text-center'>Ecosystem Overview</p>
+          <Col>
+            <p className={`${styles.header} text-center`}>Ecosystem Overview</p>
           </Col>
         </Row>
         <Row className='d-flex justify-content-center'>
@@ -33,6 +33,7 @@ export default class Overview extends Component {
           <EcosystemService
             containerStyle={styles.exchange}
             icon={exchangeIcon}
+            iconLeft='-130px'
             title='Exchange'
             subtitleWidth='370px'
             subtitleHeight='42px'

@@ -46,7 +46,11 @@ export default class ExchangeTimeline extends Component {
               phase='Phase 2 Deployment'
             />
           </Col>
-          <img src={timeline} className={`${styles.exchangeTimeline} img-fluid`} />
+          <img
+            src={timeline}
+            className={`${styles.exchangeTimeline} img-fluid`}
+            alt='' 
+          />
           <Col
             xs={{ span: 3, offset: 2 }}
             sm={{ span: 3, offset: 2 }}

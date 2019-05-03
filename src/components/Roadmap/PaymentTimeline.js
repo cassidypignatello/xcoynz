@@ -34,7 +34,11 @@ export default class PaymentTimeline extends Component {
               phase='XCOYNZ Payment Gateway Complete'
             />
           </Col>
-          <img src={timeline} className={`${styles.paymentTimeline} img-fluid`} />
+          <img
+            src={timeline}
+            className={`${styles.paymentTimeline} img-fluid`}
+            alt=''
+          />
           <Col
             xs={{ span: 5, offset: 5 }}
             sm={{ span: 4, offset: 5 }}
