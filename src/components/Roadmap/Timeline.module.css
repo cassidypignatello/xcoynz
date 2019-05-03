@@ -127,4 +127,28 @@
   .exchangeComplete {
     top: -257px;
   }
+
+  .SAWPhaseOne {
+    left: -45px;
+    bottom: 171px;
+  }
+
+  .SAWPhaseTwoDev {
+    bottom: 178px;
+    right: 124px;
+  }
+
+  .paymentPhaseOneDev {
+    bottom: 185px;
+    left: -33px;
+  }
+
+  .paymentGatewayComplete {
+    left: -17px;
+    bottom: 379px;
+  }
+
+  .paymentPhaseTwoDeployment {
+    bottom: 260px;
+  }
 }

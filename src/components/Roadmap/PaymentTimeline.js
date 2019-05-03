@@ -13,7 +13,7 @@ export default class PaymentTimeline extends Component {
           md='auto'
           lg='auto'>
           <Col
-            xs={{ span: 5, offset: 1 }}
+            xs={{ span: 6, offset: 1 }}
             sm={{ span: 4, offset: 1 }}
             md={{ span: 3, offset: 1 }}
             lg={{ span: 3, offset: 1 }}

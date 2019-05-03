@@ -13,7 +13,7 @@ export default class SAWTimeline extends Component {
           md='auto'
           lg='auto'>
           <Col
-            xs={{ span: 5, offset: 1 }}
+            xs={{ span: 6, offset: 1 }}
             sm={{ span: 4, offset: 1 }}
             md={{ span: 3, offset: 1 }}
             lg={{ span: 3, offset: 1 }}
@@ -25,7 +25,7 @@ export default class SAWTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 5, offset: 6 }}
+            xs={{ span: 6, offset: 6 }}
             sm={{ span: 5, offset: 5 }}
             md={{ span: 4, offset: 5 }}
             lg={{ span: 3, offset: 5 }}
@@ -37,7 +37,7 @@ export default class SAWTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 3, offset: 8 }}
+            xs={{ span: 3, offset: 6 }}
             sm={{ span: 3, offset: 7 }}
             md={{ span: 3, offset: 8 }}
             lg={{ span: 3, offset: 7 }}
@@ -50,7 +50,7 @@ export default class SAWTimeline extends Component {
           <img
             src={timeline}
             className={`${styles.SAWTimeline} img-fluid`}
-            alt='' 
+            alt=''
           />
           <Col
             xs={{ span: 4, offset: 2 }}
@@ -64,7 +64,7 @@ export default class SAWTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 5, offset: 8 }}
+            xs={{ span: 5, offset: 7 }}
             sm={{ span: 4, offset: 8 }}
             md={{ span: 3, offset: 8 }}
             lg={{ span: 3, offset: 8 }}

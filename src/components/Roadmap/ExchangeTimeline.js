@@ -13,7 +13,7 @@ export default class ExchangeTimeline extends Component {
           md='auto'
           lg='auto'>
           <Col
-            xs={{ span: 5, offset: 1 }}
+            xs={{ span: 6, offset: 1 }}
             sm={{ span: 4, offset: 1 }}
             md={{ span: 3, offset: 1 }}
             lg={{ span: 3, offset: 1 }}
@@ -49,7 +49,7 @@ export default class ExchangeTimeline extends Component {
           <img
             src={timeline}
             className={`${styles.exchangeTimeline} img-fluid`}
-            alt='' 
+            alt=''
           />
           <Col
             xs={{ span: 3, offset: 2 }}
@@ -63,7 +63,7 @@ export default class ExchangeTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 5, offset: 5 }}
+            xs={{ span: 6, offset: 4 }}
             sm={{ span: 4, offset: 5 }}
             md={{ span: 3, offset: 5 }}
             lg={{ span: 3, offset: 5 }}

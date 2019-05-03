@@ -9,7 +9,7 @@ export default class Roadmap extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: 'Payment Gateway'
+      active: 'Exchange'
     }
     this.handleClick = this.handleClick.bind(this)
   }
@@ -37,9 +37,15 @@ export default class Roadmap extends Component {
         <Row className='justify-content-center'>
           <Col>
             <p
-             className={active === 'Payment Gateway' ?
-            `${styles.title} ${styles.paymentTitle}` :
-            `${styles.title}`}>
+             className={active === 'Exchange' ?
+             `${styles.title} ${styles.exchangeTitle}` :
+             `${styles.title}` ||
+             active === 'SAW' ?
+             `${styles.title} ${styles.SAWTitle}` :
+             `${styles.title}` ||
+              active === 'Payment Gateway' ?
+              `${styles.title} ${styles.paymentTitle}` :
+              `${styles.title}`}>
              Our Roadmap
             </p>
           </Col>

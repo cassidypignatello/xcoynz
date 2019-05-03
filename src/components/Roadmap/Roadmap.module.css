@@ -43,4 +43,24 @@
   .navigation {
     margin-top: 40px;
   }
+
+  .SAWTitle {
+    margin-bottom: 192px;
+  }
+
+  .exchangeTitle {
+    margin-bottom: 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    margin-top: -86px;
+  }
+}
+
+@media (max-width: 576px) {
+  .SAWTitle {
+    margin-bottom: 316px;
+  }
 }
