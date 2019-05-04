@@ -22,12 +22,13 @@ export default class Roadmap extends Component {
 
   render() {
     const { active } = this.state
+    const title = 'Our Roadmap'
     let timeline;
     if (active === 'Exchange') {
       timeline = <ExchangeTimeline />
     } else if (active === 'SAW') {
       timeline = <SAWTimeline />
-    } else if (active === 'Payment Gateway') {
+    } else if (active === 'Payment') {
       timeline = <PaymentTimeline />
     }
     return (
@@ -36,18 +37,15 @@ export default class Roadmap extends Component {
         id='roadmap'>
         <Row className='justify-content-center'>
           <Col>
-            <p
-             className={active === 'Exchange' ?
-             `${styles.title} ${styles.exchangeTitle}` :
-             `${styles.title}` ||
-             active === 'SAW' ?
-             `${styles.title} ${styles.SAWTitle}` :
-             `${styles.title}` ||
-              active === 'Payment Gateway' ?
-              `${styles.title} ${styles.paymentTitle}` :
-              `${styles.title}`}>
-             Our Roadmap
-            </p>
+            {
+              active === 'Exchange' ?
+              <p className={`${styles.title} ${styles.exchangeTitle}`}>{title}</p> :
+              active === 'SAW' ?
+              <p className={`${styles.title} ${styles.SAWTitle}`}>{title}</p> :
+              active === 'Payment' ?
+              <p className={`${styles.title} ${styles.paymentTitle}`}>{title}</p> :
+              <p className={styles.title}>{title}</p>
+            }
           </Col>
         </Row>
         {timeline}
@@ -85,9 +83,9 @@ export default class Roadmap extends Component {
            sm='auto'
            md='auto'
            lg='auto'>
-            <div className={active === 'Payment Gateway' ? `${styles.active}` : null}>
+            <div className={active === 'Payment' ? `${styles.active}` : null}>
               <p
-                data-name='Payment Gateway'
+                data-name='Payment'
                 className={styles.navlink}
                 onClick={this.handleClick}>
                 Payment Gateway Roadmap
