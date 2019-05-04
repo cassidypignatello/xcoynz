@@ -25,7 +25,7 @@ export default class ExchangeTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 3, offset: 5 }}
+            xs={{ span: 4, offset: 5 }}
             sm={{ span: 3, offset: 5 }}
             md={{ span: 3, offset: 5 }}
             lg={{ span: 2, offset: 5 }}
@@ -36,7 +36,7 @@ export default class ExchangeTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 3, offset: 7 }}
+            xs={{ span: 4, offset: 7 }}
             sm={{ span: 3, offset: 7 }}
             md={{ span: 3, offset: 8 }}
             lg={{ span: 3, offset: 7 }}
@@ -52,7 +52,7 @@ export default class ExchangeTimeline extends Component {
             alt=''
           />
           <Col
-            xs={{ span: 3, offset: 2 }}
+            xs={{ span: 4, offset: 2 }}
             sm={{ span: 3, offset: 2 }}
             md={{ span: 2, offset: 2 }}
             lg={{ span: 2, offset: 2 }}

@@ -124,6 +124,10 @@
 
 
 @media (max-width: 576px) {
+  .mainDevelopment {
+    right: 67px;
+  }
+  
   .exchangeComplete {
     top: -257px;
   }
