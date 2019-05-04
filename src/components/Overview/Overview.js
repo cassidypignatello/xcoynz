@@ -59,7 +59,6 @@ export default class Overview extends Component {
             content2Width='336px'
             content3Display='none'
             content4='Crypto holders can stay informed and move with confidence without heavy research, with SAW insights suggesting best routes for investment, divestment and spend.'
-            content4Width='355px'
             content5Display='none'
             useCaseMarginTop='31px'
           />
@@ -78,9 +77,7 @@ export default class Overview extends Component {
             content2Width='338px'
             content3Display='none'
             content4='An online retailer can increase their customer base by accepting crypto payments with XCOYNZ, without worrying about additional legal obligations.'
-            content4Width='346px'
             content5='Merchants can make use of the instant settlement of fiat to avoid any risk of volatility that comes with crypto acceptance.'
-            content5Width='350px'
             useCaseMarginTop='31px'
           />
           <EcosystemService
@@ -92,12 +89,10 @@ export default class Overview extends Component {
             subtitleHeight='42px'
             subtitle='Contactless payment cards for crypto payments and the withdrawal of fiat from ATMs.'
             content1='User can pre-load crypto assets into a linked wallet and spend them anywhere a traditional card is accepted.'
-            content1Width='356px'
             content2='Cryptocurrency will only replace traditional payment methods when it is established as simple and beneficial to adopt'
             content2Width='338px'
             content3Display='none'
             content4='A crypto-asset holder can enjoy a higher level of liquidity and instant access to crypto assets as fiat equivalent for typical card payments, without having to log into an exchange and process a withdrawal'
-            content4Width='342px'
             content5Display='none'
             useCaseMarginTop='9px'
           />
