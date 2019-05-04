@@ -37,7 +37,7 @@ export default class SAWTimeline extends Component {
             />
           </Col>
           <Col
-            xs={{ span: 3, offset: 6 }}
+            xs={{ span: 4, offset: 6 }}
             sm={{ span: 3, offset: 7 }}
             md={{ span: 3, offset: 8 }}
             lg={{ span: 3, offset: 7 }}

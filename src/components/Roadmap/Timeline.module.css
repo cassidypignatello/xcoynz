@@ -127,7 +127,7 @@
   .mainDevelopment {
     right: 67px;
   }
-  
+
   .exchangeComplete {
     top: -257px;
   }
@@ -138,8 +138,12 @@
   }
 
   .SAWPhaseTwoDev {
-    bottom: 178px;
+    bottom: 136px;
     right: 124px;
+  }
+
+  .SAWPhaseTwoDeployment {
+    left: 54px;
   }
 
   .paymentPhaseOneDev {
