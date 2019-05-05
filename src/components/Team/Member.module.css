@@ -4,6 +4,19 @@
   background-color: #fff;
 }
 
+.container:hover {
+  background-image: linear-gradient(74deg, #6f76f0, #3156dc);
+  cursor: pointer;
+}
+
+.container:hover p {
+  color: #fff;
+}
+
+.container:hover .icon {
+  background: url('../../assets/images/linkedin-white.png') no-repeat;
+}
+
 .icon {
   background: url('../../assets/images/linkedin-blue.png') no-repeat;
   position: relative;
