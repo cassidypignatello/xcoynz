@@ -1,0 +1,42 @@
+.container {
+  border-radius: 8px;
+  box-shadow: 0px 29px 60px 0 rgba(12, 69, 145, 0.1);
+  background-color: #fff;
+}
+
+.icon {
+  background: url('../../assets/images/linkedin-blue.png') no-repeat;
+  position: relative;
+  top: 30px;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.name {
+  font-size: 19px;
+  font-weight: bold;
+  color: #3a4453;
+  position: relative;
+  top: -10px;
+  left: 8px;
+}
+
+.title {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.72);
+  position: relative;
+  top: -19px;
+  left: 8px;
+}
+
+.photo {
+  position: relative;
+  top: -33px;
+}
