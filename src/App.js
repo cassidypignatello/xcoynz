@@ -10,6 +10,7 @@ import Token from './components/Token/Token.js'
 import Documents from './components/Documents/Documents.js'
 import Roadmap from './components/Roadmap/Roadmap.js'
 import Team from './components/Team/Team.js'
+import Advisors from './components/Team/Advisors.js'
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
         <Documents />
         <Roadmap />
         <Team />
+        <Advisors />
       </div>
     );
   }

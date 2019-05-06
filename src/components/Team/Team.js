@@ -5,7 +5,14 @@ import Member from './Member.js'
 import images from '../../assets/images/images.js'
 
 export default class Team extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      iconMargins: 'ml-3 ml-sm-4 ml-md-4 ml-lg-3 ml-xl-5'
+    }
+  }
   render() {
+    const { iconMargins } = this.state
     return (
       <Container
         id='team'
@@ -26,6 +33,7 @@ export default class Team extends Component {
               photo={images.team.aasam}
               name='Aasam Alim'
               title='Founder'
+              iconMargins={iconMargins}
             />
           </Col>
           <Col
@@ -38,6 +46,7 @@ export default class Team extends Component {
               photo={images.team.tushar}
               name='Tushar Gaikwad'
               title='Engineering'
+              iconMargins={iconMargins}
             />
           </Col>
           <Col
@@ -50,6 +59,7 @@ export default class Team extends Component {
               photo={images.team.john}
               name='John Gurudas'
               title='Business Operations'
+              iconMargins={iconMargins}
             />
           </Col>
         </Row>
@@ -64,6 +74,7 @@ export default class Team extends Component {
               photo={images.team.savio}
               name='Savio Henriques'
               title='Technical Operations'
+              iconMargins={iconMargins}
             />
           </Col>
           <Col
@@ -76,6 +87,7 @@ export default class Team extends Component {
               photo={images.team.ritesh}
               name='Ritesh Ranjan'
               title='Product Development'
+              iconMargins={iconMargins}
             />
           </Col>
           <Col
@@ -88,6 +100,7 @@ export default class Team extends Component {
               photo={images.team.azeem}
               name='Azeem Sultan'
               title='Infrastructure and Architecture'
+              iconMargins={iconMargins}
             />
           </Col>
         </Row>
