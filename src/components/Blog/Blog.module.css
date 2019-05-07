@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 .title {
   background-image: linear-gradient(304deg, #8a8af4, #3159b8);
   font-family: 'Gordita';
