@@ -8,7 +8,7 @@ export default class Advisors extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      iconMargins: 'ml-4 ml-sm-5 ml-md-5 ml-lg-5 ml-xl-0'
+      iconMargins: 'ml-0 ml-sm-4 ml-md-4 ml-lg-5 ml-xl-0'
     }
   }
   render() {
@@ -22,7 +22,7 @@ export default class Advisors extends Component {
         </Row>
         <Row className='justify-content-center'>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -35,7 +35,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -48,7 +48,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -62,7 +62,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -77,7 +77,7 @@ export default class Advisors extends Component {
         </Row>
         <Row className='justify-content-center'>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -90,7 +90,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -103,7 +103,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -116,7 +116,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -131,7 +131,7 @@ export default class Advisors extends Component {
         </Row>
         <Row className='justify-content-center'>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -144,7 +144,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -157,7 +157,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}
@@ -170,7 +170,7 @@ export default class Advisors extends Component {
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={5}

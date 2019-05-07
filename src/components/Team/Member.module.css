@@ -22,6 +22,8 @@
   position: relative;
   top: 30px;
   cursor: pointer;
+  height: 100%;
+  display: block;
 }
 
 p {

@@ -4,7 +4,7 @@ import styles from './Member.module.css'
 
 export default class Member extends Component {
   render() {
-    const { name, title, photo, height, iconMargins } = this.props
+    const { name, title, photo, height, iconMargins, linkedin } = this.props
     return (
       <Container
         className={`${styles.container} mt-5 mb-5`}
@@ -13,9 +13,9 @@ export default class Member extends Component {
           <Col className={styles.photo}>
             <img src={photo} alt='' />
           </Col>
-          <Col
-            className={`${styles.icon} ${iconMargins}`}>
-          </Col>
+            <Col>
+              <a className={`${styles.icon} ${iconMargins}`} href={`https://www.linkedin.com/in/${linkedin}`} target='_blank'></a>
+            </Col>
         </Row>
         <Row>
           <Col xs='auto'>

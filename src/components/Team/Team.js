@@ -8,7 +8,7 @@ export default class Team extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      iconMargins: 'ml-3 ml-sm-4 ml-md-4 ml-lg-3 ml-xl-5'
+      iconMargins: 'ml-0 ml-sm-3 ml-md-4 ml-lg-1 ml-xl-4'
     }
   }
   render() {
@@ -24,7 +24,7 @@ export default class Team extends Component {
         </Row>
         <Row className='justify-content-center'>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={4}
@@ -34,10 +34,11 @@ export default class Team extends Component {
               name='Aasam Alim'
               title='Founder'
               iconMargins={iconMargins}
+              linkedin='aasam'
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={4}
@@ -47,10 +48,11 @@ export default class Team extends Component {
               name='Tushar Gaikwad'
               title='Engineering'
               iconMargins={iconMargins}
+              linkedin='tushar-gaikwad'
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={4}
@@ -60,12 +62,13 @@ export default class Team extends Component {
               name='John Gurudas'
               title='Business Operations'
               iconMargins={iconMargins}
+              linkedin='johngurudas'
             />
           </Col>
         </Row>
         <Row className='justify-content-center'>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={4}
@@ -75,10 +78,11 @@ export default class Team extends Component {
               name='Savio Henriques'
               title='Technical Operations'
               iconMargins={iconMargins}
+              linkedin='saviohenriques'
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={4}
@@ -88,10 +92,11 @@ export default class Team extends Component {
               name='Ritesh Ranjan'
               title='Product Development'
               iconMargins={iconMargins}
+              linkedin='riteshranjan13'
             />
           </Col>
           <Col
-            xs={8}
+            xs={10}
             sm={8}
             md={6}
             lg={4}
@@ -101,6 +106,7 @@ export default class Team extends Component {
               name='Azeem Sultan'
               title='Infrastructure and Architecture'
               iconMargins={iconMargins}
+              linkedin='azeemsultan'
             />
           </Col>
         </Row>
