@@ -16,29 +16,39 @@ import stephen from './stephen.png'
 import harendra from './harendra.png'
 import david from './david.png'
 import mohammud from './mohammud.png'
+import one from './blog-post-1.png'
+import two from './blog-post-2.png'
+import three from './blog-post-3.png'
+import four from './blog-post-4.png'
 
 const images = {
   team: {
-    aasam: aasam,
-    tushar: tushar,
-    john: john,
-    savio: savio,
-    ritesh: ritesh,
-    azeem: azeem
+    aasam,
+    tushar,
+    john,
+    savio,
+    ritesh,
+    azeem
   },
   advisors: {
-    wyatt: wyatt,
-    richard: richard,
-    andrijano: andrijano,
-    joshua: joshua,
-    maya: maya,
-    timothy: timothy,
-    maria: maria,
-    edem: edem,
-    stephen: stephen,
-    harendra: harendra,
-    david: david,
-    mohammud: mohammud
+    wyatt,
+    richard,
+    andrijano,
+    joshua,
+    maya,
+    timothy,
+    maria,
+    edem,
+    stephen,
+    harendra,
+    david,
+    mohammud
+  },
+  posts: {
+    one,
+    two,
+    three,
+    four
   }
 }
 
