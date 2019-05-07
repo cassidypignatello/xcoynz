@@ -1,0 +1,13 @@
+.arrow {
+  width: 44px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.nextArrow {
+  background-image: url('../../assets/images/next-arrow-inactive.png');
+}
+
+.nextArrow:hover {
+  background-image: url('../../assets/images/next-arrow-active.png');
+}

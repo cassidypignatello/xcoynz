@@ -5,27 +5,30 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import BlogPostCard from './BlogPostCard.js'
+import NextArrow from './NextArrow.js'
 import images from '../../assets/images/images.js'
 
 export default class Blog extends Component {
   render() {
     const settings = {
-      dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToScroll: 1,
+      nextArrow: <NextArrow />,
     }
     return (
       <Container
-        id='blog'>
+        id='blog'
+        fluid={true}
+        style={{ overflow: 'hidden' }}>
         <Row>
           <Col>
             <p className={`${styles.title} mt-5 mb-5`}>Latest Posts</p>
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col lg={{ offset: 2 }}>
             <Slider {...settings}>
               <BlogPostCard
                 image={images.posts.one}
@@ -33,18 +36,24 @@ export default class Blog extends Component {
                 title='XCOYNZ Business Update'
                 description='Following feedback from market experts, our investors and due to the overall market conditions, after careful consideration by our team, we'
               />
-              <div>
-                <h3>2</h3>
-              </div>
-              <div>
-                <h3>3</h3>
-              </div>
-              <div>
-                <h3>4</h3>
-              </div>
-              <div>
-                <h3>5</h3>
-              </div>
+              <BlogPostCard
+                image={images.posts.two}
+                date='June 21, 2018'
+                title='XCOYNZ Business Update'
+                description='Following feedback from market experts, our investors and due to the overall market conditions, after careful consideration by our team, we'
+              />
+              <BlogPostCard
+                image={images.posts.three}
+                date='June 21, 2018'
+                title='XCOYNZ Business Update'
+                description='Following feedback from market experts, our investors and due to the overall market conditions, after careful consideration by our team, we'
+              />
+              <BlogPostCard
+                image={images.posts.four}
+                date='June 21, 2018'
+                title='XCOYNZ Business Update'
+                description='Following feedback from market experts, our investors and due to the overall market conditions, after careful consideration by our team, we'
+              />
             </Slider>
           </Col>
         </Row>

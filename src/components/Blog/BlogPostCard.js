@@ -7,7 +7,7 @@ export default class BlogPostCard extends Component {
   render() {
     const { image, date, title, description } = this.props
     return (
-      <Card className={styles.card}>
+      <Card className={`${styles.card} mr-3`}>
         <Card.Img variant="top" src={image} />
         <Card.Body className={styles.body}>
           <Card.Text className={`${styles.date} d-flex align-items-center`}>
