@@ -1,0 +1,40 @@
+.container {
+  margin-top: 20rem;
+  border-radius: 6px;
+  background: linear-gradient(241deg, #6779df, #3257dc);
+}
+
+p {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.info {
+  margin-top: 10rem;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contact {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.privacy {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}

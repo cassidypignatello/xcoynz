@@ -36,6 +36,14 @@ import spacecard from './space-card.png'
 import strathmore from './strathmore.png'
 import theicoshop from './theicoshop.png'
 import trackico from './track-ico.png'
+import facebook from './facebook.png'
+import footerLogo from './footer-logo.png'
+import github from './github.png'
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
+import medium from './medium.png'
+import telegram from './telegram.png'
+import twitter from './twitter.png'
 
 const images = {
   team: {
@@ -83,6 +91,16 @@ const images = {
     strathmore,
     theicoshop,
     trackico
+  },
+  icons: {
+    facebook,
+    footerLogo,
+    github,
+    instagram,
+    linkedin,
+    medium,
+    telegram,
+    twitter
   }
 }
 
