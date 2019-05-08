@@ -81,6 +81,11 @@ export default class OurPartners extends Component {
                   <img src={images.partners.trackico} />
                 </a>
               </Col>
+              <Col xs='auto'>
+                <a href='https://exmarkets.com/page/xcoynz-ieo' target='_blank'>
+                  <img src={images.partners.exmarkets} />
+                </a>
+              </Col>
             </Row>
           </Col>
         </Row>

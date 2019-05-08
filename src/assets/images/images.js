@@ -44,6 +44,7 @@ import linkedin from './linkedin.png'
 import medium from './medium.png'
 import telegram from './telegram.png'
 import twitter from './twitter.png'
+import exmarkets from './exmarkets.png'
 
 const images = {
   team: {
@@ -90,7 +91,8 @@ const images = {
     spacecard,
     strathmore,
     theicoshop,
-    trackico
+    trackico,
+    exmarkets
   },
   icons: {
     facebook,
