@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Form, Button } from 'react-bootstrap'
 import styles from './Footer.module.css'
 import images from '../../assets/images/images.js'
 
@@ -10,17 +10,28 @@ export default class Footer extends Component {
         className={styles.container}
         fluid={true}>
         <Row className='justify-content-center'>
-          <Col xs={10} className={styles.formContainer}>
-            <Col>
-              <Row>
+          <Col
+            xs={10}
+            className={`${styles.formContainer} d-flex flex-column flex-lg-row`}>
+            <Col xs={12} lg={6}>
+              <Row className='justify-content-center justify-content-lg-start'>
                 <p className={styles.header}>Get Started Now</p>
               </Row>
-              <Row>
+              <Row className='justify-content-center justify-content-lg-start'>
                 <p className={styles.subheader}>Join Qrypto currencies right now.</p>
               </Row>
             </Col>
-            <Col>
-              <Row></Row>
+            <Col xs={12} lg={6} className='ml-4 d-flex align-items-start align-items-lg-center justify-content-center'>
+              <Form className='d-flex align-items-center'>
+                <Form.Group style={{ marginBottom: 0 }} controlId="formBasicEmail">
+                  <Col>
+                    <Form.Control className={styles.formInput} type="email" placeholder="Enter your email address" />
+                  </Col>
+                </Form.Group>
+                <Button className={styles.formButton} variant="light" type="submit">
+                  Sign Up
+                </Button>
+              </Form>
             </Col>
           </Col>
         </Row>
