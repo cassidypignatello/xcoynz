@@ -10,6 +10,11 @@ import Token from './components/Token/Token.js'
 import Documents from './components/Documents/Documents.js'
 import Roadmap from './components/Roadmap/Roadmap.js'
 import Team from './components/Team/Team.js'
+import Advisors from './components/Team/Advisors.js'
+import Blog from './components/Blog/Blog.js'
+import OurPartners from './components/OurPartners/OurPartners.js'
+import FAQs from './components/FAQs/FAQs.js'
+import Footer from './components/Footer/Footer.js'
 
 class App extends Component {
   render() {
@@ -27,6 +32,13 @@ class App extends Component {
         <Documents />
         <Roadmap />
         <Team />
+        <Advisors />
+        <Blog />
+        <OurPartners />
+        <FAQs />
+        <footer>
+          <Footer />
+        </footer>
       </div>
     );
   }

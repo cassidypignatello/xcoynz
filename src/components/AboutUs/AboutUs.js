@@ -37,7 +37,7 @@ export default class AboutUs extends Component {
             lg={{ span: 'auto', offset: 7 }}>
             <Button
               className={styles.button}
-              href='#'>
+              href='#overview'>
               <p className={`text-uppercase ${styles.buttonText}`}>Read More</p>
             </Button>
           </Col>

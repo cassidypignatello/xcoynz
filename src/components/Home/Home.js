@@ -51,9 +51,11 @@ export default class Home extends Component {
             md={{ span: 'auto', offset: 1 }}
             lg={{ span: 'auto', offset: 1 }}>
             <Button
+              as='a'
               className={`${styles.button}`}
-              href='#'>
-              <p className={styles.buttonText}>New to Crypto Investment</p>
+              href='https://exmarkets.com/page/xcoynz-ieo'
+              target='_blank'>
+              <p className={styles.buttonText}>Join Our IEO</p>
             </Button>
           </Col>
           <Col

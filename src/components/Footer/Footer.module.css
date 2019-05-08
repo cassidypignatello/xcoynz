@@ -1,0 +1,106 @@
+.container {
+  margin-top: 14rem;
+  border-radius: 6px;
+  background: linear-gradient(241deg, #6779df, #3257dc);
+}
+
+p {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contact {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.privacy {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.formContainer {
+  border-radius: 21px;
+  background-image: linear-gradient(123deg, #f9faff, #c3d5ff);
+  padding: 50px 40px;
+  position: relative;
+  top: -100px;
+}
+
+.header {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c394b;
+}
+
+.subheader {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(44, 57, 75, 0.73);
+}
+
+.formInput {
+  opacity: 0.98;
+  border-radius: 33px;
+  border: solid 1px #dbdbdb;
+  background-color: #ffffff;
+  width: 369px;
+  height: 68px;
+}
+
+::-webkit-input-placeholder, ::-moz-placeholder, ::-ms-placeholder, ::placeholder {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  text-align: left !important;
+  color: rgba(55, 53, 53, 0.5) !important;
+}
+
+.formButton {
+  border-radius: 26.5px;
+  background-image: linear-gradient(79deg, #f5b62a, #fec23d);
+  border-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Gordita';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  left: -183px;
+  width: 161px;
+  height: 53px;
+}
+
+@media (max-width: 992px) {
+  form {
+    position: relative;
+    top: -44px;
+    left: 65px;
+  }
+}

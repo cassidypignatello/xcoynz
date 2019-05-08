@@ -37,6 +37,7 @@ export default class Navigation extends Component {
               <NavDropdown.Item href='#blog'>Blog</NavDropdown.Item>
             </NavDropdown>
             <Button
+              as='a'
               style={{
                 fontWeight: 500,
                 width: '122px',
@@ -50,9 +51,10 @@ export default class Navigation extends Component {
                 marginLeft: '16px',
                 zIndex: 2000
               }}
-              href='#'
-              variant="light">
-              Invest
+              href='https://exmarkets.com/page/xcoynz-ieo'
+              target='_blank'
+              variant='light'>
+              Join IEO
             </Button>
           </Nav>
         </Navbar.Collapse>
