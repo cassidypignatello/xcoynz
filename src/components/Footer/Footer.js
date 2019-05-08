@@ -15,10 +15,10 @@ export default class Footer extends Component {
             className={`${styles.formContainer} d-flex flex-column flex-lg-row`}>
             <Col xs={12} lg={6}>
               <Row className='justify-content-center justify-content-lg-start'>
-                <p className={styles.header}>Get Started Now</p>
+                <p className={styles.header}>Want to learn more?</p>
               </Row>
               <Row className='justify-content-center justify-content-lg-start'>
-                <p className={styles.subheader}>Join Qrypto currencies right now.</p>
+                <p className={styles.subheader}>Leave your email and our team will contact you.</p>
               </Row>
             </Col>
             <Col xs={12} lg={6} className='ml-4 d-flex align-items-start align-items-lg-center justify-content-center'>
