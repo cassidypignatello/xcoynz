@@ -24,6 +24,18 @@ import five from './blog-post-5.png'
 import six from './blog-post-6.png'
 import seven from './blog-post-7.png'
 import eight from './blog-post-8.png'
+import boostbery from './boostbery.png'
+import coinadmin from './coinadmin.png'
+import coincodex from './coincodex.png'
+import crypto from './crypto.png'
+import lifestyle180 from './lifestyle180.png'
+import lovelife from './lovelife.png'
+import penseth from './penseth.png'
+import socialbuzzing from './social-buzzing.png'
+import spacecard from './space-card.png'
+import strathmore from './strathmore.png'
+import theicoshop from './theicoshop.png'
+import trackico from './track-ico.png'
 
 const images = {
   team: {
@@ -57,6 +69,20 @@ const images = {
     six,
     seven,
     eight
+  },
+  partners: {
+    boostbery,
+    coinadmin,
+    coincodex,
+    crypto,
+    lifestyle180,
+    lovelife,
+    penseth,
+    socialbuzzing,
+    spacecard,
+    strathmore,
+    theicoshop,
+    trackico
   }
 }
 

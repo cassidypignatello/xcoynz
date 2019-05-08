@@ -12,6 +12,7 @@ import Roadmap from './components/Roadmap/Roadmap.js'
 import Team from './components/Team/Team.js'
 import Advisors from './components/Team/Advisors.js'
 import Blog from './components/Blog/Blog.js'
+import OurPartners from './components/OurPartners/OurPartners.js'
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
         <Team />
         <Advisors />
         <Blog />
+        <OurPartners />
       </div>
     );
   }

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Card, Button } from 'react-bootstrap'
 import styles from './Blog.module.css'
 
-
 export default class BlogPostCard extends Component {
   render() {
     const { image, date, title, description, url } = this.props
