@@ -9,13 +9,19 @@ export default class Footer extends Component {
       <Container
         className={styles.container}
         fluid={true}>
-        <Row className={styles.formRow}>
-          <Col>
-            <Row></Row>
-            <Row></Row>
-          </Col>
-          <Col>
-            <Row></Row>
+        <Row className='justify-content-center'>
+          <Col xs={10} className={styles.formContainer}>
+            <Col>
+              <Row>
+                <p className={styles.header}>Get Started Now</p>
+              </Row>
+              <Row>
+                <p className={styles.subheader}>Join Qrypto currencies right now.</p>
+              </Row>
+            </Col>
+            <Col>
+              <Row></Row>
+            </Col>
           </Col>
         </Row>
         <Row className={styles.info}>
