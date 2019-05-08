@@ -40,7 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 268px;
+  width: 186px;
   height: 78px;
   border-radius: 39px;
   box-shadow: 0px 30px 57px 0 rgba(0, 0, 0, 0.09);
@@ -49,8 +49,6 @@
 }
 
 .buttonText {
-  width: 153px;
-  height: 30px;
   font-family: 'Gordita';
   font-size: 16px;
   font-weight: bold;
@@ -61,6 +59,7 @@
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .videoButton {

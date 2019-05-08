@@ -54,7 +54,7 @@ export default class Navigation extends Component {
               href='https://exmarkets.com/page/xcoynz-ieo'
               target='_blank'
               variant='light'>
-              Invest
+              Join IEO
             </Button>
           </Nav>
         </Navbar.Collapse>
