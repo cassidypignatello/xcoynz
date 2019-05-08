@@ -13,6 +13,7 @@ import Team from './components/Team/Team.js'
 import Advisors from './components/Team/Advisors.js'
 import Blog from './components/Blog/Blog.js'
 import OurPartners from './components/OurPartners/OurPartners.js'
+import FAQs from './components/FAQs/FAQs.js'
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
         <Advisors />
         <Blog />
         <OurPartners />
+        <FAQs />
       </div>
     );
   }

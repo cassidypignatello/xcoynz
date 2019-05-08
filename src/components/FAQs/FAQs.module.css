@@ -1,0 +1,21 @@
+.container {
+  margin-top: 10rem;
+}
+
+p {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.title {
+  background-image: linear-gradient(304deg, #8a8af4, #3159b8);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
