@@ -5,7 +5,7 @@ import styles from './Blog.module.css'
 
 export default class BlogPostCard extends Component {
   render() {
-    const { image, date, title, description } = this.props
+    const { image, date, title, description, url } = this.props
     return (
       <Card className={`${styles.card} mr-3`}>
         <Card.Img variant="top" src={image} />
@@ -17,6 +17,8 @@ export default class BlogPostCard extends Component {
           <Card.Title className={styles.postTitle}>{title}</Card.Title>
           <Card.Text className={styles.description}>{description}</Card.Text>
           <Button
+            href={url}
+            target='_blank'
             variant='light'
             className={styles.button}>
             Read More

@@ -6,7 +6,6 @@
 
 .container:hover {
   background-image: linear-gradient(74deg, #6f76f0, #3156dc);
-  cursor: pointer;
 }
 
 .container:hover p {

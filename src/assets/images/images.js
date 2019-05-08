@@ -20,6 +20,10 @@ import one from './blog-post-1.png'
 import two from './blog-post-2.png'
 import three from './blog-post-3.png'
 import four from './blog-post-4.png'
+import five from './blog-post-5.png'
+import six from './blog-post-6.png'
+import seven from './blog-post-7.png'
+import eight from './blog-post-8.png'
 
 const images = {
   team: {
@@ -48,7 +52,11 @@ const images = {
     one,
     two,
     three,
-    four
+    four,
+    five,
+    six,
+    seven,
+    eight
   }
 }
 
