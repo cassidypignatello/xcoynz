@@ -36,15 +36,14 @@ export default class Blog extends Component {
     return (
       <Container
         id='blog'
-        fluid={true}
-        style={{ overflow: 'hidden' }}>
+        fluid={true}>
         <Row>
           <Col>
             <p className={`${styles.title} mt-5 mb-5`}>Latest Posts</p>
           </Col>
         </Row>
         <Row>
-          <Col lg={{ offset: 2 }}>
+          <Col>
             <Slider {...settings}>
               <BlogPostCard
                 image={images.posts.one}
