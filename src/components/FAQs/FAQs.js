@@ -27,6 +27,7 @@ export default class FAQs extends Component {
     this.setState({
       active: e.target.dataset.name
     })
+    console.log(e.target.dataset.name)
   }
 
   render() {
@@ -46,28 +47,22 @@ export default class FAQs extends Component {
             <Row>
               <Col
                 lg={{ span: 5, offset: 1}}
-                className={active === 'General' ? `${styles.menuButtonActive} ${styles.menuButton} mb-4` : `${styles.menuButton} mb-4`}
-                data-name='General'
-                onClick={this.handleMenuClick}>
-                <p>GENERAL</p>
+                className={active === 'General' ? `${styles.menuButtonActive} ${styles.menuButton} mb-4` : `${styles.menuButton} mb-4`}>
+                <p data-name='General' onClick={this.handleMenuClick}>GENERAL</p>
+              </Col>
+            </Row>
+            <Row >
+              <Col
+                lg={{ span: 5, offset: 1}}
+                className={active === 'Business' ? `${styles.menuButtonActive} ${styles.menuButton} mb-4` : `${styles.menuButton} mb-4`}>
+                <p data-name='Business' onClick={this.handleMenuClick}>BUSINESS</p>
               </Col>
             </Row>
             <Row>
               <Col
                 lg={{ span: 5, offset: 1}}
-                className={active === 'Business' ? `${styles.menuButtonActive} ${styles.menuButton} mb-4` : `${styles.menuButton} mb-4`}
-                data-name='Business'
-                onClick={this.handleMenuClick}>
-                <p>BUSINESS</p>
-              </Col>
-            </Row>
-            <Row>
-              <Col
-                lg={{ span: 5, offset: 1}}
-                className={active === 'Product' ? `${styles.menuButtonActive} ${styles.menuButton} mb-4` : `${styles.menuButton} mb-4`}
-                data-name='Product'
-                onClick={this.handleMenuClick}>
-                <p>PRODUCT</p>
+                className={active === 'Product' ? `${styles.menuButtonActive} ${styles.menuButton} mb-4` : `${styles.menuButton} mb-4`}>
+                <p data-name='Product' onClick={this.handleMenuClick}>PRODUCT</p>
               </Col>
             </Row>
           </Col>
@@ -81,7 +76,7 @@ export default class FAQs extends Component {
                     </Col>
                     <Col
                       xs={1}
-                      className={isOpen === '1' ? `${styles.open}` : `${styles.close}`}
+                      className={isOpen === '1' ? `${styles.close}` : `${styles.open}`}
                       onClick={this.openQuestion}
                       data-index='1'>
                     </Col>
@@ -105,7 +100,7 @@ export default class FAQs extends Component {
                     </Col>
                     <Col
                       xs={1}
-                      className={isOpen === '2' ? `${styles.open}` : `${styles.close}`}
+                      className={isOpen === '2' ? `${styles.close}` : `${styles.open}`}
                       onClick={this.openQuestion}
                       data-index='2'>
                     </Col>
@@ -128,7 +123,7 @@ export default class FAQs extends Component {
                     </Col>
                     <Col
                       xs={1}
-                      className={isOpen === '3' ? `${styles.open}` : `${styles.close}`}
+                      className={isOpen === '3' ? `${styles.close}` : `${styles.open}`}
                       onClick={this.openQuestion}
                       data-index='3'>
                     </Col>
@@ -151,7 +146,7 @@ export default class FAQs extends Component {
                     </Col>
                     <Col
                       xs={1}
-                      className={isOpen === '4' ? `${styles.open}` : `${styles.close}`}
+                      className={isOpen === '4' ? `${styles.close}` : `${styles.open}`}
                       onClick={this.openQuestion}
                       data-index='4'>
                     </Col>
@@ -174,7 +169,7 @@ export default class FAQs extends Component {
                     </Col>
                     <Col
                       xs={1}
-                      className={isOpen === '1' ? `${styles.open}` : `${styles.close}`}
+                      className={isOpen === '1' ? `${styles.close}` : `${styles.open}`}
                       onClick={this.openQuestion}
                       data-index='1'>
                     </Col>
@@ -189,8 +184,195 @@ export default class FAQs extends Component {
                   </Row>
                 </Col>
               </Row>
-            </Col> :
-            null
+            </Col> : null
+          }
+          { active === 'Business' ?
+            <Col lg={7} className={styles.questions}>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>Where are you based?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '7' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='7'>
+                    </Col>
+                    { isOpen === '7' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>XCOYNZ Limited is a UK registered company, based in London.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>What is XCOYNZ, and what is the project about?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '8' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='8'>
+                    </Col>
+                    { isOpen === '8' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>XCOYNZ is a platform that consists of 4 major components:<br />1. XCOYNZ Exchange<br />2. XCOYNZ Smart Algorithm Wallet<br />3. XCOYNZ Payment Gateway<br />4. XCOYNZ Smart Card</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>Does XCOYNZ have the skills and the capacity to realise the idea of the platform?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '9' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='9'>
+                    </Col>
+                    { isOpen === '9' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>We have the diversity in the Team as well as the business experience and drive to develop our vision from conception to launch.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>How secure is your Platform?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '10' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='10'>
+                    </Col>
+                    { isOpen === '10' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>Our Platform will be secured through multiple security features and systems specially tailored to prevent the risk of both internal and cyber-attacks. For security reasons, it is not detailed further at this stage.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>Why is XCZ a token and not a coin?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '11' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='11'>
+                    </Col>
+                    { isOpen === '11' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>A coin is a standalone cryptocurrency based on its own Blockchain and is only used as a means of payment. A token is developed and hosted on existing Blockchains and also has additional functionality. As XCZ has multiple uses on our Platform and has been developed on the Ethereum platform, it is therefore a token.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>Will ‘Know Your Customer’ and ‘Anti-Money Laundering’ requirements apply, or will it be anonymous?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '12' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='12'>
+                    </Col>
+                    { isOpen === '12' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>Know Your Customer and Anti-Money Laundering (KYC/AML) requirements will be fully applicable for every investor.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>What is XCOYNZ’s long term goal?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '13' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='13'>
+                    </Col>
+                    { isOpen === '13' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>To be the platform of choice for everyone. Whether experienced in the cryptocurrency world or a newcomer, to enter this space and reap the benefits of repeat transactions with confidence, ease and with time and cost efficiencies.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Row className={`${styles.questionBox} mb-4`}>
+                    <Col xs={10}>
+                      <p className={styles.question}>Which countries are restricted to invest in XCOYNZ?</p>
+                    </Col>
+                    <Col
+                      xs={1}
+                      className={isOpen === '14' ? `${styles.close}` : `${styles.open}`}
+                      onClick={this.openQuestion}
+                      data-index='14'>
+                    </Col>
+                    { isOpen === '14' ?
+                      <Row>
+                        <Col lg={10}>
+                          <p className={styles.answer}>We are serving the global market and have not set any restrictions. However, we have no control over regional regulations and restrictions.</p>
+                        </Col>
+                      </Row> :
+                      null
+                    }
+                  </Row>
+                </Col>
+              </Row>
+            </Col> : null
           }
         </Row>
       </Container>
