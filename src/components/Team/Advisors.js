@@ -28,19 +28,6 @@ export default class Advisors extends Component {
             lg={5}
             xl={3}>
             <Member
-              photo={images.advisors.wyatt}
-              name='Wyatt Meldrumm'
-              title='Senior Marketing Advisor'
-              iconMargins={iconMargins}
-            />
-          </Col>
-          <Col
-            xs={10}
-            sm={8}
-            md={6}
-            lg={5}
-            xl={3}>
-            <Member
               photo={images.advisors.richard}
               name='Richard Stebbings'
               title='Blockchain Development'

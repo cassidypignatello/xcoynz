@@ -19,7 +19,7 @@ export default class ExchangeTimeline extends Component {
             lg={{ span: 3, offset: 1 }}
             className={styles.timelineContainer}>
             <TimelineMarker
-              date='Apr 2019 to Sep 2019'
+              date='July 2019 to Sep 2019'
               phase='Phase 1 Development'
               description='Multi directional exchange features. User defined fees. Future orders.'
             />
