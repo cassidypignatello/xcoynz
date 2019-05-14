@@ -22,7 +22,11 @@ export default class Footer extends Component {
               </Row>
             </Col>
             <Col xs={12} lg={6} className='ml-4 d-flex align-items-start align-items-lg-center justify-content-center'>
-              <Form className='d-flex align-items-center'>
+              <Form
+                action='https://globalblockchainnetwork.us20.list-manage.com/subscribe/post?u=b0503c9b313182c9004f0b089&amp;id=39b340a3cf'
+                method='post'
+                target='_blank'
+                className='d-flex align-items-center'>
                 <Form.Group style={{ marginBottom: 0 }} controlId="formBasicEmail">
                   <Col>
                     <Form.Control className={styles.formInput} type="email" placeholder="Enter your email address" />
